@@ -14,7 +14,7 @@ function check() {
     document.querySelector('.number').textContent = number; //to manipulate the value from an input field
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('header').style.backgroundColor = '#60b347';
-    document.querySelector('.number').style.width = '30rem';
+    document.querySelector('.number').style.width = '200px';
     if (score > highscore) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
