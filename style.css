@@ -79,7 +79,6 @@ input {
 @media (max-width: 900px) {
   header {
     padding-top: 150px;
-    border-bottom: 3px solid #eee;
   }
   header h1 {
     font-size: 20px;
