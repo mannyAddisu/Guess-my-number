@@ -13,6 +13,7 @@ function check() {
     document.querySelector('.message').textContent = '🎉Correct Number';
     document.querySelector('.number').textContent = number; //to manipulate the value from an input field
     document.querySelector('body').style.backgroundColor = '#60b347';
+    document.querySelector('header').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
     if (score > highscore) {
       highscore = score;
@@ -41,9 +42,10 @@ document.querySelector('.again').addEventListener('click', function () {
   number = Math.trunc(Math.random() * 20) + 1;
   score = 20;
   document.querySelector('.score').textContent = score;
-  document.querySelector('.message').textContent = 'Start guessing...';
+  document.querySelector('.message').textContent = 'Start Guessing...';
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
   document.querySelector('body').style.backgroundColor = '#222';
-  document.querySelector('.number').style.width = '15rem';
+  document.querySelector('.number').style.width = '200px';
+  document.querySelector('header').style.backgroundColor = '#757575';
 });
